@@ -3,8 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 60;
+	objectVersion = 70;
 	objects = {
+
+/* Begin PBXBuildFile section */
+		0B53F7432C5E7E3B006FA90C /* ConfirmationDialogSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 0B53F7422C5E7E3B006FA90C /* ConfirmationDialogSwiftUI */; };
+/* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		0B53F7162C5E7DE0006FA90C /* PBXContainerItemProxy */ = {
@@ -40,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B53F7432C5E7E3B006FA90C /* ConfirmationDialogSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +105,7 @@
 			);
 			name = ConfirmationDialogSwiftUIUITesterApp;
 			packageProductDependencies = (
+				0B53F7422C5E7E3B006FA90C /* ConfirmationDialogSwiftUI */,
 			);
 			productName = ConfirmationDialogSwiftUIUITesterApp;
 			productReference = 0B53F7052C5E7DDC006FA90C /* ConfirmationDialogSwiftUIUITesterApp.app */;
@@ -183,6 +189,9 @@
 				Base,
 			);
 			mainGroup = 0B53F6FC2C5E7DDC006FA90C;
+			packageReferences = (
+				0B53F7412C5E7E3B006FA90C /* XCLocalSwiftPackageReference "../confirmation-dialog-swiftui" */,
+			);
 			productRefGroup = 0B53F7062C5E7DDC006FA90C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -545,6 +554,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		0B53F7412C5E7E3B006FA90C /* XCLocalSwiftPackageReference "../confirmation-dialog-swiftui" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "../confirmation-dialog-swiftui";
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0B53F7422C5E7E3B006FA90C /* ConfirmationDialogSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ConfirmationDialogSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0B53F6FD2C5E7DDC006FA90C /* Project object */;
 }
