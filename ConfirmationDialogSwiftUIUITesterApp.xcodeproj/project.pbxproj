@@ -35,7 +35,6 @@
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		0B53F7072C5E7DDC006FA90C /* ConfirmationDialogSwiftUIUITesterApp */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = ConfirmationDialogSwiftUIUITesterApp; sourceTree = "<group>"; };
-		0B53F7182C5E7DE0006FA90C /* ConfirmationDialogSwiftUIUITesterAppTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = ConfirmationDialogSwiftUIUITesterAppTests; sourceTree = "<group>"; };
 		0B53F7222C5E7DE0006FA90C /* ConfirmationDialogSwiftUIUITesterAppUITests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = ConfirmationDialogSwiftUIUITesterAppUITests; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
@@ -69,7 +68,6 @@
 			isa = PBXGroup;
 			children = (
 				0B53F7072C5E7DDC006FA90C /* ConfirmationDialogSwiftUIUITesterApp */,
-				0B53F7182C5E7DE0006FA90C /* ConfirmationDialogSwiftUIUITesterAppTests */,
 				0B53F7222C5E7DE0006FA90C /* ConfirmationDialogSwiftUIUITesterAppUITests */,
 				0B53F7062C5E7DDC006FA90C /* Products */,
 			);
@@ -123,9 +121,6 @@
 			);
 			dependencies = (
 				0B53F7172C5E7DE0006FA90C /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				0B53F7182C5E7DE0006FA90C /* ConfirmationDialogSwiftUIUITesterAppTests */,
 			);
 			name = ConfirmationDialogSwiftUIUITesterAppTests;
 			packageProductDependencies = (
